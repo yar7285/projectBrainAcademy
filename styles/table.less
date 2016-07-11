@@ -1,69 +1,64 @@
-.our_news() {
-    .local_img {
-                 margin-left: 30px;
-            }
-            h3 {
-                 width: 300px;
-                position: relative;
-                left: 400px;
-                top: -340px;
-            }
-            h6 {
-                width: 300px;
-                position: relative;
-                left: 400px;
-                top: -340px;
-            }
-            p {
-                position: relative;
-                left: 400px;
-                top: -340px;
-            }
-}
-
-.wokers() {
-     margin-top: 40px;
-            width: 730px;
-            .img_worker {
-                margin-left:  40px;
-            }
-            h3 {
-                margin-right: 200px;
-            }
-            h6 {
-                 margin-right: 210px;
-            }
-            p {
-                width: 300px;
-                margin-right: 100px;
-            }
-}
-.media_helper() {
-            @media (min-width: 860px) {
-                margin-left: 8%;
-            }@media (min-width: 930px) {
-                margin-left: 14%;
-            }
-}
-.media_clients() {
-     @media (min-width: 860px) {
-                margin-left: 40%;
-            }
-}
-
+@import url("variables.less");
+@import url("mixins_table.less");
 @media (min-width: 768px) and (max-width: 1024px) {
-    #promo {
+    .active_baner() {
+    .active {
+            visibility: hidden;
+        float: left;
+            width: 365px;
+            height: 365px;
+            background-color: rgba(70, 68, 68, 0.69);
+            left: -15px;
+            h3{
+                color: #ffffff;
+                font: 700 20px JosefinSans;
+                text-align: left;
+                margin-top: 200px;
+            }
+            hr {
+                width: 50px;
+                height: 2px;
+                background-color: rgba(46, 204, 113, 0.5);
+                margin-left: 0px;
+            }
+            p{
+                color: #ffffff;
+                font: 700 14px JosefinSans;
+                text-align: left;
+            }
+         }
+}
+
+    .active_work() {
+            .active{
+            visibility: hidden;
+            width: 310px;
+            height: 80px;
+            position: absolute;
+            margin-top: 120px;
+            margin-left: 30px;
+            background-color: rgba(1, 250, 107, 0.61);
+        .promo{
+            position: relative;
+            left: 20px;
+            top: 0px;
+            color: #ffffff;
+            font: 700 14px / 20px JosefinSans;
+            text-align: center;
+            }
+        }
+}
+    #carousel-example-generic {
         &.back_img{
         }
         .up {
             width: 70%;
         }
         .logo {
-           margin-left: -70px;             
+            text-align: center;
         }
         .nav {
             margin-left: 20%;
-//            margin-right: 10%;
             
         }
         .Home {
@@ -82,27 +77,32 @@
         }
         .circle {
         }
+
+
         h6 {
-        width: 590px;
         color: #ffffff;
         font: 700 40px JosefinSans;
         height: 49px;
-        margin-left: 20%;
+            text-align: center;
         }
         .line {
-            margin-left: 44%;
+            text-align: center;
         }
         .text {
-            margin-left: 25%;
+            text-align: center;
             font: 700 16px / 25px JosefinSans;
-            width: 500px;
         }
         .learn_more {
-            margin-left: 44%;
+            float: left;
+            margin-left: 33%;
+            @media (min-width: 810px) {
+                margin-left: 35%;
+            }
             
             p {
             }
         }
+
         .slide1 {
         }
         .slide2 {
@@ -114,7 +114,7 @@
     
     .About_Us {
             width: 730px;
-            height: 1000px;
+            height: 900px;
         margin-left: 10px;
         .media_helper();
         .button-img {
@@ -123,7 +123,7 @@
         .images {
             width: 350px;
             height: 350px;
-            margin-top: 400px;
+            margin-top: 260px;
         }
         .images2 {
             width: 350px!important;
@@ -137,22 +137,24 @@
             }
         }
         h3 {
-//            margin-top: 130px;
         }
         .upp {
         }
         .paragrpf {
             width: 300px!important;
-//            margin-top: 50px;
         }
         .mission {
+            font: 600 15px JosefinSans;
         }
         .skils {
+            font: 600 15px JosefinSans;
         }
         .client {
+            font: 600 15px JosefinSans;
         }
         .btn_browse {
-            margin-left: 60px;
+                margin-left: -300px;
+                margin-top: -80px;
             p {
             }
         }
@@ -163,7 +165,7 @@
         margin-top: 50px;
         width: 730px;
         height: 500px;
-        margin-left: 10px;
+        margin-left: 30px;
         .media_helper();
         .Photography {
             h3 {
@@ -193,12 +195,13 @@
         }
     }
     .Recent_Works {
-        width: 730px;
+        width: 740px;
+        height: 1550px;
         margin-left: 10px;
         .media_helper();
         &.container{
         }
-        .btn {
+        .btn_work {
             margin-left: 200px;
         }
         .work {
@@ -217,6 +220,10 @@
         }
         .web {
         }
+        .images {
+            height: 1110px;
+            width: 740px;
+        }
         .baner1 {
             margin-top: 50px;
             width: 365px;
@@ -227,6 +234,10 @@
             }
             &.col-xs-12{
             }
+            .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
         .baner2 {
             margin-top: 50px;
@@ -238,6 +249,10 @@
             }
             &.col-xs-12{
             }
+            .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
         .baner3 {
             width: 365px;
@@ -248,6 +263,10 @@
             }
             &.col-xs-12{
             }
+            .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
         .baner4 {
             width: 365px;
@@ -258,6 +277,10 @@
             }
             &.col-xs-12{
             }
+            .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
         .baner5 {
             width: 365px;
@@ -268,6 +291,10 @@
             }
             &.col-xs-12{
             }
+            .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
         .baner6 {
             width: 365px;
@@ -278,12 +305,17 @@
             }
             &.col-xs-12{
             }
+            .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
     }
     .Our_news {
-         width: 730px;
+        width: 730px;
         margin-left: 10px;
         height: 1300px;
+        margin-top: 0px;
         .media_helper();
         .btn_news {
              margin-left: 200px;
@@ -308,6 +340,11 @@
                 left: 400px;
                 top: -340px;
             }
+             .active_work();
+            &:hover{
+                .active {visibility: visible};
+                h3 {color: @green_color;}
+            }
         }
         .rail_img {
             margin-left: 30px;
@@ -316,13 +353,23 @@
             margin-top:-150px;
             float: none;
             width: 720px;
-           .our_news()
+           .our_news();
+             .active_work();
+            &:hover{
+                .active {visibility: visible};
+                h3 {color: @green_color;}
+            }
         }
         .Our_Journey {
             margin-top:-150px;
             float: none;
             width: 720px;
-            .our_news()
+            .our_news();
+             .active_work();
+            &:hover{
+                .active {visibility: visible};
+                h3 {color: @green_color;}
+            }
         }
     }
     .client_quote {
@@ -356,7 +403,7 @@
         .worker {
             width: 730px;
             .img_worker {
-                margin-left:  40px;
+                margin-left:  0px;
             }
             h3 {
                 margin-right: 180px;
@@ -368,18 +415,34 @@
                   width: 300px;
                 margin-right: 100px;
             }
+            .activer(){ margin-left: 40px};
+        &:hover {
+            .activee {visibility: visible};
+        }
         }
         .worker2 {
             .wokers();
+             .activer();
+        &:hover {
+            .activee {visibility: visible};
+        }
         }
         .worker3 {
           .wokers();
+             .activer();
+        &:hover {
+            .activee {visibility: visible};
+        }
         }
         .worker4 {
            .wokers();
             h3{
                 margin-right: 220px;
             }
+             .activer();
+        &:hover {
+            .activee {visibility: visible};
+        }
         }
     }
     .clients {
@@ -425,6 +488,10 @@
     
     .footr {
         height: 900px;
+        .btn_up{
+            top: 7958px;
+            left: 50%;
+        }
         .about_us {
             margin-left: 8%;
             h5 {
@@ -491,12 +558,7 @@
         img {
         }
         .keep_touch {
-            margin-left: 6%;
-            margin-top: 50px;
-            h5 {
-            }
-            p {
-            }
+               margin-left: 30px;
         }
         hr {
         }
@@ -528,4 +590,3 @@
     
 }
 }
-    

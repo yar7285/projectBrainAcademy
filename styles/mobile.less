@@ -1,4 +1,51 @@
 @media (min-width: 320px) and (max-width: 768px) {
+    @import url("variables.less");
+    .activer() {
+    .activee {
+                visibility: hidden;
+                float: left;
+                margin-left: 35px!important;
+                width: 235px;
+                height: 235px;
+                background-color: rgba(16, 239, 110, 0.72);
+            .social {
+                background: no-repeat center/cover url(images/icons.png);
+                width: 140px;
+                height: 40px;
+                position: relative;
+                left: 50px;
+                top: 100px;
+            }
+        }
+}
+
+    .active_baner() {
+    .active {
+            visibility: hidden;
+            float: left;
+            width: 300px;
+            height: 300px;
+            background-color: rgba(70, 68, 68, 0.69);
+            left: -15px;
+            h3{
+                color: #ffffff;
+                font: 700 20px JosefinSans;
+                text-align: left;
+                margin-top: 200px;
+            }
+            hr {
+                width: 50px;
+                height: 2px;
+                background-color: rgba(46, 204, 113, 0.5);
+                margin-left: 0px;
+            }
+            p{
+                color: #ffffff;
+                font: 700 14px JosefinSans;
+                text-align: left;
+            }
+         }
+}
     * {
         box-sizing: border-box;
         width: auto;
@@ -60,10 +107,8 @@
             }
     }
 
-    #promo {
+    #carousel-example-generic {
         display: block !important;
-//        margin-left: 0px;
-//        text-align: center;
         &.back_img{
         }
         .up {
@@ -107,7 +152,7 @@
             font-size: 26px;
         }
         .line {
-            margin-top: 150px;
+            margin-top: 20px;
         }
         .text {
             text-align: center;
@@ -115,11 +160,11 @@
         }
         margin-left: 0px;
         .learn_more {
-            margin-left: 25%;
+            margin-left: 15%;
             @media (min-width: 400px) {
-                margin-left: 35%;
+                margin-left: 25%;
             }@media (min-width: 550px) {
-                margin-left: 40%;
+                margin-left: 34%;
             }
             p {
                 text-align: center;
@@ -218,8 +263,8 @@
     }
     .what_we_do {
         width: 307px;
-        margin-top: 600px;
-        margin-left: 1%;
+        margin-top: 650px;
+        margin-left: 3%;
        .media_helper();
         .Photography {
             width: 307px;
@@ -262,34 +307,75 @@
         }
     }
     .Recent_Works {
-        width: 307px;
         margin-top: 500px;
+        margin-left: 20px;
+        height: auto;
        .media_helper();
         &.container{
         }
-        .btn {
+        .btn_work {
             margin-left: 0px;
         }
         .work {
             display: block;
         }
+        .item {
+        padding: 3px;
+        width: 150px;
+        margin: 5px;
+    }
         ul {
+            height: 130px;
+            margin-left: 35px;
         }
         .all {
              float: none;
-            margin-left: 50px;
+            margin-left: 5px;
+            text-align: center;
+            border: 2px solid black;
+        border-radius: 10px;
+            &:hover{
+                color: @green_color;
+            }
         }
         .animation {
              float: none;
+            border: 2px solid black;
+        border-radius: 10px;
+            text-align: center;
+            &:hover{
+                color: @green_color;
+            }
         }
         .app {
              float: none;
+            border: 2px solid black;
+        border-radius: 10px;
+            text-align: center;
+            &:hover{
+                color: @green_color;
+            }
         }
         .pht {
+            text-align: center;
              float: none;
+            border: 2px solid black;
+        border-radius: 10px;
+            &:hover{
+                color: @green_color;
+            }
         }
         .web {
              float: none;
+            border: 2px solid black;
+        border-radius: 10px;
+            text-align: center;
+            &:hover{
+                color: @green_color;
+            }
+        }
+        .images {
+            height: 1810px;
         }
         .baner1 {
             width: 300px;
@@ -300,6 +386,10 @@
             }
             &.col-xs-12{
             }
+              .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
         .baner2 {
             width: 300px;
@@ -310,6 +400,10 @@
             }
             &.col-xs-12{
             }
+              .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
         .baner3 {
             width: 300px;
@@ -320,6 +414,10 @@
             }
             &.col-xs-12{
             }
+              .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
         .baner4 {
             width: 300px;
@@ -330,6 +428,10 @@
             }
             &.col-xs-12{
             }
+              .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
         .baner5 {
             width: 300px;
@@ -340,6 +442,10 @@
             }
             &.col-xs-12{
             }
+              .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
         .baner6 {
             width: 300px;
@@ -350,11 +456,16 @@
             }
             &.col-xs-12{
             }
+              .active_baner();
+        &:hover{
+            .active {visibility: visible};
+        }
         }
     }
     .Our_news {
         width: 307px;
         margin-top: 60px;
+        margin-left: 20px;
        .media_helper();
         .btn_news {
             margin-left: 0px;
@@ -407,7 +518,6 @@
         }
         p {
             width: 300px!important;
-//           left: -300px;
         }
         .writer {
             margin-left: -130px;
@@ -421,7 +531,7 @@
         width: 307px;
         .media_helper();
         .btn_team {
-            margin-left: 0px;
+            margin-left: 20px;
         }
         .worker {
             width: 307px;
@@ -438,27 +548,51 @@
                  margin-right: 100px;
             }
             p {
+                width: 200px;
                 margin-top: 20px;
-                margin-right: 20px;
+                margin-right: 45px;
             }
+             .activer();
+        &:hover {
+            .activee {visibility: visible};
+        }
         }
         .worker2 {
             width: 307px;
             margin-top: 350px;
             float: none;
            .wokers();
+            p {
+                width: 200px;
+                margin-top: 20px;
+                margin-right: 45px;
+            }
+             .activer();
+        &:hover {
+            .activee {visibility: visible};
+        }
         }
         .worker3 {
             width: 307px;
             float: none;
             margin-top: 400px;
             .wokers();
+             .activer();
+            p {
+                width: 200px;
+                margin-top: 20px;
+                margin-right: 45px;
+            }
+        &:hover {
+            .activee {visibility: visible};
+        }
         }
         .worker4 {
             width: 307px;
             float: none;
             margin-top: 400px;
            .wokers();
+            margin-right: 20px;
             h3{
                  margin-top: 40px;
                  margin-right: 100px; 
@@ -467,6 +601,15 @@
                  margin-top: 10px;
                  margin-right: 90px;
             }
+             p {
+                width: 200px;
+                margin-top: 20px;
+                margin-right: 45px;
+            }
+             .activer();
+        &:hover {
+            .activee {visibility: visible};
+        }
         }
     }
     .clients {
@@ -510,16 +653,29 @@
         overflow: auto;
         height: auto;
         display: block;
-        .about_us {
-           float: none!important;
-            width: 300px;
-            margin-left: 0%;
-            @media (min-width: 400px) {
-                margin-left: 20%;
+        .btn_up{
+            top: 11150px;
+            left: 40%;
+             @media (min-width: 400px) {
+                margin-left: 5%;
+            } @media (min-width: 500px) {
+                margin-left: 7%;
             }
              @media (min-width: 560px) {
-                margin-left: 30%;
+                margin-left: 10%;
             }
+        }
+        .about_us {
+           float: none!important;
+            width: 280px;
+            margin-left: 0px;
+//            @media (min-width: 400px) {
+//                margin-left: 15%;
+//            }
+//             @media (min-width: 560px) {
+//                margin-left: 30%;
+//            }
+            .media_helper();
             h5 {
                
             }
@@ -550,12 +706,13 @@
              float: none!important;
             width: 300px;
                margin-left: 5%;
-            @media (min-width: 400px) {
-                margin-left: 20%;
-            }
-             @media (min-width: 560px) {
-                margin-left: 30%;
-            }
+//            @media (min-width: 400px) {
+//                margin-left: 20%;
+//            }
+//             @media (min-width: 560px) {
+//                margin-left: 30%;
+//            }
+            .media_helper();
             h5 {
                 text-align: center;
             }
@@ -587,13 +744,14 @@
             margin-left: 0px;
             margin-top: -20px;
             width: 300px;
-             margin-left: 5%;
-            @media (min-width: 400px) {
-                margin-left: 20%;
-            }
-             @media (min-width: 560px) {
-                margin-left: 30%;
-            }
+//             margin-left: 5%;
+//            @media (min-width: 400px) {
+//                margin-left: 20%;
+//            }
+//             @media (min-width: 560px) {
+//                margin-left: 30%;
+//            }
+            .media_helper();
             h5 {
                 text-align: center;
             }
@@ -608,14 +766,15 @@
         .keep_touch {
              float: none!important;
             margin-left: 0px;
-            width: 300px;
+            width: 280px;
              margin-left: 5%;
-            @media (min-width: 400px) {
-                margin-left: 20%;
-            }
-             @media (min-width: 560px) {
-                margin-left: 30%;
-            }
+//            @media (min-width: 400px) {
+//                margin-left: 20%;
+//            }
+//             @media (min-width: 560px) {
+//                margin-left: 30%;
+//            }
+            .media_helper();
             h5 {
             }
             p {

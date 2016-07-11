@@ -1,7 +1,7 @@
 var subscribeModule = (function(){
-                       
+
     var private = function(opt){
-    
+
         var options = {
              email:  null,
              button:  null,
@@ -9,16 +9,16 @@ var subscribeModule = (function(){
         };
 
         // jquery contains method 'extend' for next code
-        options.email = opt.email || null;    
-        options.button = opt.button || null;   
+        options.email = opt.email || null;
+        options.button = opt.button || null;
         options.sendOnEnter = opt.sendOnEnter || false;
 
         var showNotification = function(){
-            alert("Email was sent");  
+            alert("Email was sent");
         };
 
         var sentEmail = function(){
-            //send email to options.email 
+            //send email to options.email
             showNotification();
         };
 
@@ -36,11 +36,11 @@ var subscribeModule = (function(){
                sentEmail();
             });
         }
-    };                   
-    
+    };
+
     return {
         init: function(opt){
-             private(opt);   
+             private(opt);
         }
    };
 })();

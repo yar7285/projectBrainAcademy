@@ -1,0 +1,24 @@
+{
+    "items" : [
+        {
+            "class" : "Photography",
+            "name" : "Photography",
+            "text" : "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+            "img" : "url"
+        },
+
+        {
+            "class" : "Web_Design",
+            "name" : "Web Design",
+            "text" : "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+            "img" : "url"
+        },
+
+        {
+            "class" : "Marketing",
+            "name" : "Marketing",
+            "text" : "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+            "img" : "url"
+        }
+    ]
+}

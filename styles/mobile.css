@@ -5,60 +5,60 @@
     width: auto;
     float: none;
   }
-  #promo {
+  #carousel-example-generic {
     display: block !important;
     margin-left: 0px;
   }
-  #promo .up {
+  #carousel-example-generic .up {
     margin-left: 0px;
     height: 400px;
     width: 100%;
   }
-  #promo .logo {
+  #carousel-example-generic .logo {
     text-align: center;
     float: none!important;
   }
-  #promo .nav {
+  #carousel-example-generic .nav {
     float: left;
     margin-left: calc(48%);
     margin-top: 100px;
     width: 20px;
     font: 700 30px JosefinSans;
   }
-  #promo .search_cart {
+  #carousel-example-generic .search_cart {
     margin-top: 50px;
     float: none!important;
     margin-left: 47%;
   }
-  #promo .brascets {
+  #carousel-example-generic .brascets {
     float: none!important;
     margin-left: 55%;
     margin-top: -20px;
   }
-  #promo h6 {
+  #carousel-example-generic h6 {
     text-align: center;
     font-size: 26px;
   }
-  #promo .line {
-    margin-top: 150px;
+  #carousel-example-generic .line {
+    margin-top: 20px;
   }
-  #promo .text {
+  #carousel-example-generic .text {
     text-align: center;
     margin-top: 50px;
   }
-  #promo .learn_more {
-    margin-left: 25%;
+  #carousel-example-generic .learn_more {
+    margin-left: 15%;
   }
-  #promo .learn_more p {
+  #carousel-example-generic .learn_more p {
     text-align: center;
   }
-  #promo .slide1 {
+  #carousel-example-generic .slide1 {
     margin-top: 280px;
   }
-  #promo .slide2 {
+  #carousel-example-generic .slide2 {
     margin-top: 280px;
   }
-  #promo .slide3 {
+  #carousel-example-generic .slide3 {
     margin-top: 280px;
   }
   .About_Us {
@@ -115,8 +115,8 @@
   }
   .what_we_do {
     width: 307px;
-    margin-top: 600px;
-    margin-left: 1%;
+    margin-top: 650px;
+    margin-left: 3%;
   }
   .what_we_do .Photography {
     width: 307px;
@@ -152,58 +152,270 @@
     text-align: center;
   }
   .Recent_Works {
-    width: 307px;
     margin-top: 500px;
+    margin-left: 20px;
+    height: auto;
   }
-  .Recent_Works .btn {
+  .Recent_Works .btn_work {
     margin-left: 0px;
   }
   .Recent_Works .work {
     display: block;
   }
+  .Recent_Works .item {
+    padding: 3px;
+    width: 150px;
+    margin: 5px;
+  }
+  .Recent_Works ul {
+    height: 130px;
+    margin-left: 35px;
+  }
   .Recent_Works .all {
     float: none;
-    margin-left: 50px;
+    margin-left: 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  .Recent_Works .all:hover {
+    color: #2ecc71;
   }
   .Recent_Works .animation {
     float: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .Recent_Works .animation:hover {
+    color: #2ecc71;
   }
   .Recent_Works .app {
     float: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .Recent_Works .app:hover {
+    color: #2ecc71;
   }
   .Recent_Works .pht {
+    text-align: center;
     float: none;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  .Recent_Works .pht:hover {
+    color: #2ecc71;
   }
   .Recent_Works .web {
     float: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .Recent_Works .web:hover {
+    color: #2ecc71;
+  }
+  .Recent_Works .images {
+    height: 1810px;
   }
   .Recent_Works .baner1 {
     width: 300px;
     height: 300px;
   }
+  .Recent_Works .baner1 .active {
+    visibility: hidden;
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(70, 68, 68, 0.69);
+    left: -15px;
+  }
+  .Recent_Works .baner1 .active h3 {
+    color: #ffffff;
+    font: 700 20px JosefinSans;
+    text-align: left;
+    margin-top: 200px;
+  }
+  .Recent_Works .baner1 .active hr {
+    width: 50px;
+    height: 2px;
+    background-color: rgba(46, 204, 113, 0.5);
+    margin-left: 0px;
+  }
+  .Recent_Works .baner1 .active p {
+    color: #ffffff;
+    font: 700 14px JosefinSans;
+    text-align: left;
+  }
+  .Recent_Works .baner1:hover .active {
+    visibility: visible;
+  }
   .Recent_Works .baner2 {
     width: 300px;
     height: 300px;
+  }
+  .Recent_Works .baner2 .active {
+    visibility: hidden;
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(70, 68, 68, 0.69);
+    left: -15px;
+  }
+  .Recent_Works .baner2 .active h3 {
+    color: #ffffff;
+    font: 700 20px JosefinSans;
+    text-align: left;
+    margin-top: 200px;
+  }
+  .Recent_Works .baner2 .active hr {
+    width: 50px;
+    height: 2px;
+    background-color: rgba(46, 204, 113, 0.5);
+    margin-left: 0px;
+  }
+  .Recent_Works .baner2 .active p {
+    color: #ffffff;
+    font: 700 14px JosefinSans;
+    text-align: left;
+  }
+  .Recent_Works .baner2:hover .active {
+    visibility: visible;
   }
   .Recent_Works .baner3 {
     width: 300px;
     height: 300px;
   }
+  .Recent_Works .baner3 .active {
+    visibility: hidden;
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(70, 68, 68, 0.69);
+    left: -15px;
+  }
+  .Recent_Works .baner3 .active h3 {
+    color: #ffffff;
+    font: 700 20px JosefinSans;
+    text-align: left;
+    margin-top: 200px;
+  }
+  .Recent_Works .baner3 .active hr {
+    width: 50px;
+    height: 2px;
+    background-color: rgba(46, 204, 113, 0.5);
+    margin-left: 0px;
+  }
+  .Recent_Works .baner3 .active p {
+    color: #ffffff;
+    font: 700 14px JosefinSans;
+    text-align: left;
+  }
+  .Recent_Works .baner3:hover .active {
+    visibility: visible;
+  }
   .Recent_Works .baner4 {
     width: 300px;
     height: 300px;
+  }
+  .Recent_Works .baner4 .active {
+    visibility: hidden;
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(70, 68, 68, 0.69);
+    left: -15px;
+  }
+  .Recent_Works .baner4 .active h3 {
+    color: #ffffff;
+    font: 700 20px JosefinSans;
+    text-align: left;
+    margin-top: 200px;
+  }
+  .Recent_Works .baner4 .active hr {
+    width: 50px;
+    height: 2px;
+    background-color: rgba(46, 204, 113, 0.5);
+    margin-left: 0px;
+  }
+  .Recent_Works .baner4 .active p {
+    color: #ffffff;
+    font: 700 14px JosefinSans;
+    text-align: left;
+  }
+  .Recent_Works .baner4:hover .active {
+    visibility: visible;
   }
   .Recent_Works .baner5 {
     width: 300px;
     height: 300px;
   }
+  .Recent_Works .baner5 .active {
+    visibility: hidden;
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(70, 68, 68, 0.69);
+    left: -15px;
+  }
+  .Recent_Works .baner5 .active h3 {
+    color: #ffffff;
+    font: 700 20px JosefinSans;
+    text-align: left;
+    margin-top: 200px;
+  }
+  .Recent_Works .baner5 .active hr {
+    width: 50px;
+    height: 2px;
+    background-color: rgba(46, 204, 113, 0.5);
+    margin-left: 0px;
+  }
+  .Recent_Works .baner5 .active p {
+    color: #ffffff;
+    font: 700 14px JosefinSans;
+    text-align: left;
+  }
+  .Recent_Works .baner5:hover .active {
+    visibility: visible;
+  }
   .Recent_Works .baner6 {
     width: 300px;
     height: 300px;
   }
+  .Recent_Works .baner6 .active {
+    visibility: hidden;
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(70, 68, 68, 0.69);
+    left: -15px;
+  }
+  .Recent_Works .baner6 .active h3 {
+    color: #ffffff;
+    font: 700 20px JosefinSans;
+    text-align: left;
+    margin-top: 200px;
+  }
+  .Recent_Works .baner6 .active hr {
+    width: 50px;
+    height: 2px;
+    background-color: rgba(46, 204, 113, 0.5);
+    margin-left: 0px;
+  }
+  .Recent_Works .baner6 .active p {
+    color: #ffffff;
+    font: 700 14px JosefinSans;
+    text-align: left;
+  }
+  .Recent_Works .baner6:hover .active {
+    visibility: visible;
+  }
   .Our_news {
     width: 307px;
     margin-top: 60px;
+    margin-left: 20px;
   }
   .Our_news .btn_news {
     margin-left: 0px;
@@ -240,7 +452,7 @@
     width: 307px;
   }
   .Our_teams .btn_team {
-    margin-left: 0px;
+    margin-left: 20px;
   }
   .Our_teams .worker {
     width: 307px;
@@ -258,8 +470,28 @@
     margin-right: 100px;
   }
   .Our_teams .worker p {
+    width: 200px;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 45px;
+  }
+  .Our_teams .worker .activee {
+    visibility: hidden;
+    float: left;
+    margin-left: 35px!important;
+    width: 235px;
+    height: 235px;
+    background-color: rgba(16, 239, 110, 0.72);
+  }
+  .Our_teams .worker .activee .social {
+    background: no-repeat center / cover url(images/icons.png);
+    width: 140px;
+    height: 40px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  .Our_teams .worker:hover .activee {
+    visibility: visible;
   }
   .Our_teams .worker2 {
     width: 307px;
@@ -281,6 +513,30 @@
     margin-top: 20px;
     margin-right: 20px;
   }
+  .Our_teams .worker2 p {
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 45px;
+  }
+  .Our_teams .worker2 .activee {
+    visibility: hidden;
+    float: left;
+    margin-left: 35px!important;
+    width: 235px;
+    height: 235px;
+    background-color: rgba(16, 239, 110, 0.72);
+  }
+  .Our_teams .worker2 .activee .social {
+    background: no-repeat center / cover url(images/icons.png);
+    width: 140px;
+    height: 40px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  .Our_teams .worker2:hover .activee {
+    visibility: visible;
+  }
   .Our_teams .worker3 {
     width: 307px;
     float: none;
@@ -301,10 +557,35 @@
     margin-top: 20px;
     margin-right: 20px;
   }
+  .Our_teams .worker3 .activee {
+    visibility: hidden;
+    float: left;
+    margin-left: 35px!important;
+    width: 235px;
+    height: 235px;
+    background-color: rgba(16, 239, 110, 0.72);
+  }
+  .Our_teams .worker3 .activee .social {
+    background: no-repeat center / cover url(images/icons.png);
+    width: 140px;
+    height: 40px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  .Our_teams .worker3 p {
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 45px;
+  }
+  .Our_teams .worker3:hover .activee {
+    visibility: visible;
+  }
   .Our_teams .worker4 {
     width: 307px;
     float: none;
     margin-top: 400px;
+    margin-right: 20px;
   }
   .Our_teams .worker4 .img_worker {
     margin-left: 35px;
@@ -328,6 +609,30 @@
   .Our_teams .worker4 h6 {
     margin-top: 10px;
     margin-right: 90px;
+  }
+  .Our_teams .worker4 p {
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 45px;
+  }
+  .Our_teams .worker4 .activee {
+    visibility: hidden;
+    float: left;
+    margin-left: 35px!important;
+    width: 235px;
+    height: 235px;
+    background-color: rgba(16, 239, 110, 0.72);
+  }
+  .Our_teams .worker4 .activee .social {
+    background: no-repeat center / cover url(images/icons.png);
+    width: 140px;
+    height: 40px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  .Our_teams .worker4:hover .activee {
+    visibility: visible;
   }
   .clients {
     margin-top: 1900px;
@@ -367,10 +672,14 @@
     height: auto;
     display: block;
   }
+  .footr .btn_up {
+    top: 11150px;
+    left: 40%;
+  }
   .footr .about_us {
     float: none!important;
-    width: 300px;
-    margin-left: 0%;
+    width: 280px;
+    margin-left: 0px;
   }
   .footr .email {
     text-align: center;
@@ -394,7 +703,6 @@
     margin-left: 0px;
     margin-top: -20px;
     width: 300px;
-    margin-left: 5%;
   }
   .footr .recent_works h5 {
     text-align: center;
@@ -405,7 +713,7 @@
   .footr .keep_touch {
     float: none!important;
     margin-left: 0px;
-    width: 300px;
+    width: 280px;
     margin-left: 5%;
   }
   .backs {
@@ -427,13 +735,13 @@
   }
 }
 @media (min-width: 320px) and (max-width: 768px) and (min-width: 400px) {
-  #promo .learn_more {
-    margin-left: 35%;
+  #carousel-example-generic .learn_more {
+    margin-left: 25%;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) and (min-width: 550px) {
-  #promo .learn_more {
-    margin-left: 40%;
+  #carousel-example-generic .learn_more {
+    margin-left: 34%;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) and (min-width: 360px) {
@@ -702,41 +1010,96 @@
   }
 }
 @media (min-width: 320px) and (max-width: 768px) and (min-width: 400px) {
+  .footr .btn_up {
+    margin-left: 5%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 500px) {
+  .footr .btn_up {
+    margin-left: 7%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 560px) {
+  .footr .btn_up {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 390px) {
+  .footr .about_us {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 480px) {
   .footr .about_us {
     margin-left: 20%;
   }
 }
-@media (min-width: 320px) and (max-width: 768px) and (min-width: 560px) {
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 540px) {
+  .footr .about_us {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 640px) {
   .footr .about_us {
     margin-left: 30%;
   }
 }
-@media (min-width: 320px) and (max-width: 768px) and (min-width: 400px) {
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 390px) {
+  .footr .recent_news {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 480px) {
   .footr .recent_news {
     margin-left: 20%;
   }
 }
-@media (min-width: 320px) and (max-width: 768px) and (min-width: 560px) {
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 540px) {
+  .footr .recent_news {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 640px) {
   .footr .recent_news {
     margin-left: 30%;
   }
 }
-@media (min-width: 320px) and (max-width: 768px) and (min-width: 400px) {
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 390px) {
+  .footr .recent_works {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 480px) {
   .footr .recent_works {
     margin-left: 20%;
   }
 }
-@media (min-width: 320px) and (max-width: 768px) and (min-width: 560px) {
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 540px) {
+  .footr .recent_works {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 640px) {
   .footr .recent_works {
     margin-left: 30%;
   }
 }
-@media (min-width: 320px) and (max-width: 768px) and (min-width: 400px) {
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 390px) {
+  .footr .keep_touch {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 480px) {
   .footr .keep_touch {
     margin-left: 20%;
   }
 }
-@media (min-width: 320px) and (max-width: 768px) and (min-width: 560px) {
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 540px) {
+  .footr .keep_touch {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) and (min-width: 640px) {
   .footr .keep_touch {
     margin-left: 30%;
   }
