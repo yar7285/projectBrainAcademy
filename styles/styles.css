@@ -300,7 +300,6 @@
   margin-left: 110px;
 }
 .what_we_do .img0:hover {
-  -webkit-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
 }
 .what_we_do .Web_Design {
@@ -326,7 +325,6 @@
   margin-top: -28px;
 }
 .what_we_do .img1:hover {
-  -webkit-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
 }
 .what_we_do .Marketing {
@@ -350,7 +348,6 @@
   margin-left: 110px;
 }
 .what_we_do .img2:hover {
-  -webkit-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
 }
 .Recent_Works {
@@ -515,6 +512,7 @@
   text-align: left;
 }
 .Recent_Works .baner1:hover {
+  -ms-transform: scale(1.02);
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
@@ -526,7 +524,6 @@
   height: 400px;
   display: inline-block;
   background: no-repeat center / cover url(images/baner2.png);
-  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
 }
 .Recent_Works .baner2 .active {
@@ -554,7 +551,6 @@
   text-align: left;
 }
 .Recent_Works .baner2:hover {
-  -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
 .Recent_Works .baner2:hover .active {
@@ -565,7 +561,6 @@
   height: 400px;
   display: inline-block;
   background: no-repeat center / cover url(images/baner3.png);
-  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
 }
 .Recent_Works .baner3 .active {
@@ -593,7 +588,6 @@
   text-align: left;
 }
 .Recent_Works .baner3:hover {
-  -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
 .Recent_Works .baner3:hover .active {
@@ -604,7 +598,6 @@
   height: 400px;
   display: inline-block;
   background: no-repeat center / cover url(images/baners5.png);
-  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
 }
 .Recent_Works .baner4 .active {
@@ -632,7 +625,6 @@
   text-align: left;
 }
 .Recent_Works .baner4:hover {
-  -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
 .Recent_Works .baner4:hover .active {
@@ -643,7 +635,6 @@
   height: 400px;
   display: inline-block;
   background: no-repeat center / cover url(images/baners6.png);
-  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
 }
 .Recent_Works .baner5 .active {
@@ -671,7 +662,6 @@
   text-align: left;
 }
 .Recent_Works .baner5:hover {
-  -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
 .Recent_Works .baner5:hover .active {
@@ -682,7 +672,6 @@
   height: 400px;
   display: inline-block;
   background: no-repeat center / cover url(images/baners8.png);
-  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
 }
 .Recent_Works .baner6 .active {
@@ -710,7 +699,6 @@
   text-align: left;
 }
 .Recent_Works .baner6:hover {
-  -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
 .Recent_Works .baner6:hover .active {
@@ -720,7 +708,6 @@
   width: 400px;
   height: 400px;
   display: inline-block;
-  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
 }
 .Recent_Works .baner7 .active {
@@ -748,7 +735,6 @@
   text-align: left;
 }
 .Recent_Works .baner7:hover {
-  -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
 .Recent_Works .baner7:hover .active {
@@ -758,7 +744,6 @@
   width: 400px;
   height: 400px;
   display: inline-block;
-  -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
 }
 .Recent_Works .baner8 .active {
@@ -786,7 +771,6 @@
   text-align: left;
 }
 .Recent_Works .baner8:hover {
-  -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
 .Recent_Works .baner8:hover .active {
@@ -1679,7 +1663,6 @@
   display: inline-block;
 }
 .footr .twiter:hover {
-  -webkit-transform: rotate(35deg);
   transform: rotate(35deg);
 }
 .footr .soc {
@@ -1690,7 +1673,6 @@
   background: no-repeat center / cover url("../img/dribbble.png");
 }
 .footr .soc:hover {
-  -webkit-transform: rotate(35deg);
   transform: rotate(35deg);
 }
 .footr .face {
@@ -1702,7 +1684,6 @@
   background-size: contain;
 }
 .footr .face:hover {
-  -webkit-transform: rotate(35deg);
   transform: rotate(35deg);
 }
 .footr .in {
@@ -1713,7 +1694,6 @@
   background: no-repeat center / cover url("../img/dribbble.png");
 }
 .footr .in:hover {
-  -webkit-transform: rotate(35deg);
   transform: rotate(35deg);
 }
 .backs {
