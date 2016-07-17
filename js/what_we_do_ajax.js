@@ -1,8 +1,11 @@
 $(document).ready(function() {
     loadData();
+    new ScrollFlow();
 });
 
 function loadData(){
+
+
     loadWhatWeDoData();
     loadRecentWork();
     //other data loads
@@ -35,10 +38,21 @@ function loadWhatWeDoData(){
             }
         }
     });
-}
+};
+
 
 function loadRecentWork(){
     var $container = $(".Recent_Works .images");
+
+    $.ajax({
+   url: "/recent_works_all.html"
+})
+  .done(function( data ) {
+    if ( data ) {
+       $container.append(data);
+    }
+  });
+
     $(".Recent_Works .item").on("click", function(){
         var self = this;
         $.ajax({
