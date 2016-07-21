@@ -18,11 +18,11 @@
   height: 1080px;
 }
 #carousel-example-generic .item2 {
-  background: no-repeat center / cover url("../img/header2.jpg");
+  background: no-repeat center / cover url("../img/design.jpg");
   height: 1080px;
 }
 #carousel-example-generic .item3 {
-  background: no-repeat center / cover url("../img/header3.jpg");
+  background: no-repeat center / cover url("../img/hede33.jpg");
   height: 1080px;
 }
 #carousel-example-generic .carousel-caption {
@@ -1440,6 +1440,10 @@
   left: 100px;
   width: 195px;
 }
+.footr .happens1:hover {
+  color: #2ecc71;
+  cursor: pointer;
+}
 .footr .news2 {
   background: no-repeat center / cover url(images/railway.jpg);
   height: 85px;
@@ -1469,6 +1473,10 @@
   position: relative;
   left: 100px;
   width: 195px;
+}
+.footr .happens2:hover {
+  color: #2ecc71;
+  cursor: pointer;
 }
 .footr .news3 {
   background: no-repeat center / cover url(images/railway.jpg);
@@ -1500,6 +1508,10 @@
   left: 100px;
   width: 195px;
 }
+.footr .happens3:hover {
+  color: #2ecc71;
+  cursor: pointer;
+}
 .footr .recent_works {
   width: 290px;
   height: 260px;
@@ -1515,46 +1527,74 @@
   color: #bbbbbb;
   font: 700 16px JosefinSans;
 }
+.footr .recent_works p:hover {
+  color: #2ecc71;
+  cursor: pointer;
+}
 .footr .works {
   background: no-repeat center / cover url(images/baner1.png);
   display: inline-block;
   width: 85px;
   height: 84px;
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
+}
+.footr .works:hover {
+  transform: scale(1.2);
 }
 .footr .works2 {
   background: no-repeat center / cover url(images/baner1.png);
   display: inline-block;
   width: 85px;
   height: 84px;
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   background: no-repeat center / cover url(images/baner2.png);
+}
+.footr .works2:hover {
+  transform: scale(1.2);
 }
 .footr .works3 {
   background: no-repeat center / cover url(images/baner1.png);
   display: inline-block;
   width: 85px;
   height: 84px;
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   background: no-repeat center / cover url(images/baner3.png);
+}
+.footr .works3:hover {
+  transform: scale(1.2);
 }
 .footr .works4 {
   background: no-repeat center / cover url(images/baner1.png);
   display: inline-block;
   width: 85px;
   height: 84px;
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   background: no-repeat center / cover url(images/baners5.png);
+}
+.footr .works4:hover {
+  transform: scale(1.2);
 }
 .footr .works5 {
   background: no-repeat center / cover url(images/baner1.png);
   display: inline-block;
   width: 85px;
   height: 84px;
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   background: no-repeat center / cover url(images/baners6.png);
+}
+.footr .works5:hover {
+  transform: scale(1.2);
 }
 .footr .works6 {
   background: no-repeat center / cover url(images/baner1.png);
   display: inline-block;
   width: 85px;
   height: 84px;
+  transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
   background: no-repeat center / cover url(images/baners8.png);
+}
+.footr .works6:hover {
+  transform: scale(1.2);
 }
 .footr .keep_touch {
   width: 320px;

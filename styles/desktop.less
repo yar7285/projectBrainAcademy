@@ -25,11 +25,11 @@
       height: 1080px;
     }
     .item2{
-      background: no-repeat center/cover url("../img/header2.jpg");
+      background: no-repeat center/cover url("../img/design.jpg");
       height: 1080px;
     }
     .item3{
-      background: no-repeat center/cover url("../img/header3.jpg");
+      background: no-repeat center/cover url("../img/hede33.jpg");
       height: 1080px;
     }
     .carousel-caption{
@@ -970,7 +970,10 @@
         position: relative;
         left: 100px;
         width: 195px;
-        
+        &:hover{
+             color: @green_color;
+                cursor: pointer;
+            }
         
     }
     .news2 {
@@ -1009,6 +1012,10 @@
         p {
             color: @grey_colr;
             font: 700 16px JosefinSans;
+            &:hover {
+               color: @green_color;
+                cursor: pointer;
+            }
         }
     }
     .works {
@@ -1016,6 +1023,10 @@
         display: inline-block;
         width: 85px;
         height: 84px;
+         transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+        &:hover{
+            transform: scale(1.2);
+        }
     }
     .works2 {
        .works; 
